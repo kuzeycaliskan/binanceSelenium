@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="3" parallel="tests">
+    <test verbose="2" preserve-order="true" name="Case1.java">
+        <classes>
+            <class name="Cases.Case1">
+                <methods>
+                    <include name="checkIfHomePageAndMarketsPageOpened"/>
+                    <include name="checkIfAllCryptosAreListed"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Case2.java">
+        <classes>
+            <class name="Cases.Case2">
+                <methods>
+                    <include name="checkIfHomePageAndMarketsPageOpened"/>
+                    <include name="clickTradeThenSpot"/>
+                    <include name="clickLoginAndTryToLoginWithNotValidAccount"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Case3.java">
+        <classes>
+            <class name="Cases.Case3">
+                <methods>
+                    <include name="checkIfHomePageAndMarketsPageOpened"/>
+                    <include name="getRandomFiveItemFromAbout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Case4.java">
+        <classes>
+            <class name="Cases.Case4">
+                <methods>
+                    <include name="checkIfHomePageAndMarketsPageOpened"/>
+                    <include name="getRandomFiveItemFromAbout"/>
+                    <include name="checkCryptoPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

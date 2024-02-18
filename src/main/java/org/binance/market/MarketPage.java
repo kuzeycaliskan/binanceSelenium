@@ -91,7 +91,7 @@ public class MarketPage extends BasePage implements MarketLocators {
         }
 
         // Excel dosyasını oluştur
-        try (FileOutputStream outputStream = new FileOutputStream("./downloads/veriler.xlsx")) {
+        try (FileOutputStream outputStream = new FileOutputStream("./downloads/coinlist.xlsx")) {
             workbook.write(outputStream);
         } catch (Exception e) {
             e.printStackTrace();
