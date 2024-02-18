@@ -1,6 +1,10 @@
 # Binance Automation with Selenium Grid
 ## Selenium 4.17, Docker Compose (Selenium Grid)
 
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
 The automation project includes 4 cases which have been written on excel and attached to the repository.
 
 ## Features
@@ -28,12 +32,6 @@ Please follow below steps to execute automation.
 mvn clean install
 ```
 
-- Browse the url to access Selenium Grid.
-
-```sh
-http://localhost:4444/ui#
-```
-
 - Run testng.xml to run all test cases.
 
 
@@ -45,6 +43,12 @@ Please follow below steps for Docker - Selenium Grid.
 
 ```sh
 docker-compose up -d
+```
+
+- Browse the url to access Selenium Grid.
+
+```sh
+http://localhost:4444/ui#
 ```
 
 
