@@ -16,6 +16,7 @@ public class DriverOptions extends SetupRemoteWebDriver {
         FirefoxProfile profile = createFirefoxProfile();
         options.setProfile(profile);
         options.addArguments("--start-maximized");
+        options.addArguments("--incognito");
         return options;
     }
 
@@ -25,12 +26,14 @@ public class DriverOptions extends SetupRemoteWebDriver {
         options.setProfile(profile);
         options.addArguments("-headless");
         options.addArguments("--start-maximized");
+        options.addArguments("--incognito");
         return options;
     }
 
     protected static ChromeOptions createChromeOptions() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
+        options.addArguments("--incognito");
         options.setExperimentalOption("excludeSwitches", List.of("enable-automation"));
         options.setExperimentalOption("prefs", createChromePreferences());
         return options;
@@ -40,6 +43,7 @@ public class DriverOptions extends SetupRemoteWebDriver {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless=new");
         options.addArguments("--start-maximized");
+        options.addArguments("--incognito");
         options.setExperimentalOption("prefs", createChromePreferences());
         options.setExperimentalOption("excludeSwitches", List.of("enable-automation"));
         return options;
@@ -48,6 +52,7 @@ public class DriverOptions extends SetupRemoteWebDriver {
     protected static EdgeOptions createEdgeOptions() {
         EdgeOptions options = new EdgeOptions();
         options.addArguments("--start-maximized");
+        options.addArguments("--incognito");
         options.setExperimentalOption("excludeSwitches", List.of("enable-automation"));
         options.setExperimentalOption("prefs", createEdgePreferences());
         return options;
