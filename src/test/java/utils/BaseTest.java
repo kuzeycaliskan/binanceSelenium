@@ -26,25 +26,6 @@ public class BaseTest {
     public LoginPage loginPage;
     public CoinPage coinPage;
 
-//    @BeforeClass(alwaysRun = true)
-//    public void setUp() throws Exception{
-//        projectProps = new ProjectProps();
-//
-//        ChromeOptions options = new ChromeOptions();
-//        options.addArguments("start-maximized");
-//        options.addArguments("disable-notifications");
-//        options.addArguments("disable-popup-blocking");
-//        options.addArguments("--incognito");
-//        setWebDriver(new ChromeDriver(options));
-//        homePage = new HomePage(getWebDriver());
-//        marketPage = new MarketPage(getWebDriver());
-//        tradePage = new TradePage(getWebDriver());
-//        loginPage = new LoginPage(getWebDriver());
-//        coinPage = new CoinPage(getWebDriver());
-//        homePage.goToURLFromHomePage(projectProps.getPropertyValue("base_url"));
-//        Thread.sleep(5000);
-//    }
-//
     @BeforeClass(alwaysRun = true)
     public void setUp() throws Exception{
         projectProps = new ProjectProps();
