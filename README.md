@@ -31,6 +31,7 @@ mvn clean install
 ```
 
 - Run testng.xml to run all test cases.
+- Browser selection can be edited on "SetupRemoteWebDriver" class. Browser types are defined with ENUM.
 
 
 ## Docker
