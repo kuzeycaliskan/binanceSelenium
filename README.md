@@ -8,7 +8,7 @@ The automation project includes 4 cases which have been written on excel and att
 
 - Constant variables have been added to the resources/inputs.properties file
 - Coin Excel saved to the ./downloads/coinlist.xlsx path.
-- Manual test cases has been attached to the repository.
+- Manual test cases has been attached to the repository named as Binance_manual_cases.xlsx.
 - Parallel execution is supported.
 - Chrome, Firefox and Edge browsers supported 
 
