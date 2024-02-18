@@ -49,6 +49,8 @@ http://localhost:4444/ui#
 ```
 
 
+![test_result](https://github.com/kuzeycaliskan/binanceSelenium/blob/master/Test_execution_result.png)
+
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
 [Git]: <https://git-scm.com/downloads>
