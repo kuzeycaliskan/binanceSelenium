@@ -1,10 +1,7 @@
 package Cases;
 
 import org.testng.annotations.Test;
-import utils.BaseTest;
 import utils.SetupRemoteWebDriver;
-
-import java.io.IOException;
 
 public class Case2 extends SetupRemoteWebDriver {
 

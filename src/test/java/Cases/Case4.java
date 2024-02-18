@@ -1,7 +1,6 @@
 package Cases;
 
 import org.testng.annotations.Test;
-import utils.BaseTest;
 import utils.SetupRemoteWebDriver;
 
 public class Case4 extends SetupRemoteWebDriver {
