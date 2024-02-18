@@ -10,6 +10,7 @@ The automation project includes 4 cases which have been written on excel and att
 - Coin Excel saved to the ./downloads/coinlist.xlsx path.
 - Manual test cases has been attached to the repository.
 - Parallel execution is supported.
+- Chrome, Firefox and Edge browsers supported 
 
 
 ## Tech
